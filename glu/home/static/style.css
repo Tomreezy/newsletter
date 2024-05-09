@@ -114,3 +114,9 @@ footer{
     display: flex;
 
 }
+
+.pass{
+    margin:4rem;
+    padding:2rem;
+    border:blueviolet solid 2px;
+}

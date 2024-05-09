@@ -87,6 +87,15 @@
         </div>
 
 
+        <div class="pass">
+            {% for post in data %}
+            <div class="pass">
+                <h1>{{post.title}}</h1>
+                <p>{{post.body|truncatewords:20}}</p>
+            </div>
+            {% endfor %}
+        </div>
+
     <footer>
         <p>subscribe to our news letter</p>
         <form> <input type="text"> <button type="submit">subscribe</button></form>

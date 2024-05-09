@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}My Blog {% endblock %}
+
+{% block content %}
+    <div style="border: 2px solid blueviolet; border-radius: 1rem;margin: 2rem; padding: 2rem;">
+    {% for post in posts %}
+
+        <h2 style="border-bottom: 5px solid rgb(200, 176, 223);"><a>{{post.title}}</a></h2>
+        <p style="color: brown;">published by <strong><em>{{post.author}}</em></strong> on {{post.created}}</p>
+        <p>{{post.body| truncatewords:25|linebreaks}}</p>
+        <hr>
+    {% endfor %}
+    </div>
+{% endblock %}

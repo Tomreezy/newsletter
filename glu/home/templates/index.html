@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Basic HTML Template</title>
+</head>
+<body>
+    <div class="head-wrapper">
+    <header>
+        <div class="icons">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </div>
+        <div class="contacts">
+            <span>CALL US- 061 012 1251</span>
+            <span>|</span>
+            <span>MON-FRI </span>
+        </div>
+    </header>
+    </div>
+    
+    <nav>
+        <div class="links">
+            <ul>
+                <li>home</li>
+                <li>blog</li>
+                <li>contact</li>
+                <li>more</li>
+            </ul>
+        </div>
+        
+        <div class="logo">
+            <p>LOGO</p>
+        </div>
+
+        <div class="search">
+            <input type="text">
+        </div>
+    </nav>
+
+    <div class="front-wrapper">
+        
+    <div class="front">
+        <button style="background-color: aquamarine;padding: .5rem;">LIFESTYLE</button>
+        <p style="font-size: 2.2rem;font-weight: 800;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+        <hr>
+        <p style="font-size: small;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate eveniet quae fuga, totam culpa quis</p>
+    </div>
+    </div>
+
+
+    <div class="editors-choice">
+        <div>
+            <img src="{% static 'pic1.png' %}" alt="save">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Date</p>
+        </div>
+    
+        <div>
+            <img src="{% static 'pic1.png' %}" alt="save">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Date</p>
+        </div>
+
+        <div>
+            <img src="{% static 'pic1.png' %}" alt="save">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Date</p>
+        </div>
+    </div>
+
+    <div class="second-wrapper">
+        
+        <div class="front">
+            <button style="background-color: aquamarine;padding: .5rem;">LIFESTYLE</button>
+            <p style="font-size: 2.2rem;font-weight: 800;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+            <hr>
+            <p style="font-size: small;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate eveniet quae fuga, totam culpa quis</p>
+        </div>
+        </div>
+
+
+    <footer>
+        <p>subscribe to our news letter</p>
+        <form> <input type="text"> <button type="submit">subscribe</button></form>
+        <p class="poli">
+            <ul>
+                <li>politics</li>
+                <li>shame</li>
+                <li>hire</li>
+                <li>hays</li>
+            </ul>
+        </p>
+
+        <p>copyRight</p>
+    </footer>
+</body>
+</html>

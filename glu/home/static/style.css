@@ -1,0 +1,116 @@
+
+
+
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.head-wrapper{
+    background-color: aliceblue;
+    
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: dimgrey;
+}
+
+
+header>.icons>ul{
+    display:flex;
+    margin-left: 1rem;
+}
+header>.icons>ul>li{
+    margin-left: 2rem;
+    list-style-type:none;
+}
+
+header>.contacts>span{
+    margin-right: 2rem;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav>.links>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>.links>ul>li{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+nav>.links>ul>li:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.front-wrapper{
+    position: relative;
+
+    background-image: url('pic1.png'); /* Replace 'background-image.jpg' with your image file path */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    height: 60vh; /* Set container height to full viewport height */
+}
+
+.front{
+    position:absolute;
+    left:9rem;
+    bottom: 3rem;
+    color: aliceblue;
+}
+
+.front>button:hover{
+    background-color: aliceblue;
+
+}
+
+
+img{
+    max-width: 100%;
+}
+
+.editors-choice{
+    display: flex;
+    gap: 2.5rem;
+    margin: 4rem;
+}
+
+.second-wrapper{
+    margin: 4rem;
+    position: relative;
+    background-image: url('pic1.png'); /* Replace 'background-image.jpg' with your image file path */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    height: 40vh; /* Set container height to full viewport height */
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color:aliceblue;
+}
+
+.poli > ul >li{
+    list-style-type:none;
+    display: flex;
+
+}
